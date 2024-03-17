@@ -3,7 +3,7 @@
 }
 body {
   padding: 30px;
-  background-color: rgb(130, 195, 132);
+  /* background-color: rgb(195, 167, 130); */
 }
 div {
   margin-bottom: 100px;
@@ -112,4 +112,13 @@ div {
   border-radius: 5px;
   padding: 15px;
   border: 1px solid firebrick;
+}
+#validation-input {
+  border: 2px solid #bdbdbd;
+}
+#validation-input.valid {
+  border-color: #4caf50;
+}
+#validation-input.invalid {
+  border-color: #f44336;
 }
