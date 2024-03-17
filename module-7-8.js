@@ -10,12 +10,11 @@
 //    console.log(input.value);
 // }
 
-
 //TODO: № 2 ==============================================
 // Після натискання кнопки "SWAP ME" здійснюється обмін вмістом між двома інпутами.
 // Ви можете натиснути на неї кілька разів або вручну змінити вміст інпутів.
 
-// const leftInput = document.querySelector('#leftSwapInput'); 
+// const leftInput = document.querySelector('#leftSwapInput');
 // const rightInput = document.querySelector('#rightSwapInput');
 // const button = document.querySelector('#swapButton');
 
@@ -27,6 +26,28 @@
 //    rightInput.value = leftInputText;
 // };
 
+//TODO: № 4 ==============================================
+// Кнопка "Приховати" ховає текст і замінює назву кнопки на
+// "Розкрити", при повторному натисканні текст знову стає доступним
+// і кнопка набуває початкового вигляду.
 
+// const ref = {
+//   inpuEl: document.querySelector("#passwordInput"),
+//   btnEl: document.querySelector("#passwordButton"),
+// };
 
-
+// ref.btnEl.addEventListener("click", onChangeVisible);
+// function onChangeVisible() {
+//   const inputType = ref.inpuEl.getAttribute("type");
+//   console.log(inputType);
+//   const toggleTypeInput = inputType === "password" ? "text" : "password";
+//   ref.inpuEl.setAttribute("type", toggleTypeInput);
+//   //   if (ref.btnEl.textContent !== "Розкрити") {
+//   //     ref.btnEl.textContent = "Розкрити";
+//   //   } else {
+//   //     ref.btnEl.textContent = "Приховати";
+//   //   }
+//   const btnValue = ref.btnEl.textContent;
+//   const btnValueToggle = btnValue === "Приховати" ? "Розкрити" : "Приховати";
+//   ref.btnEl.textContent = btnValueToggle;
+// }
